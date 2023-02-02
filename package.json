@@ -1,0 +1,15 @@
+{
+  "name": "cypressAuto",
+  "version": "1.0.0",
+  "description": "My webpack project",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/cypress run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^12.4.0",
+    "cypress-mochawesome-reporter": "^3.2.3"
+  }
+}
