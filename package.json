@@ -4,7 +4,12 @@
   "description": "My webpack project",
   "main": "index.js",
   "scripts": {
-    "test": "./node_modules/.bin/cypress run"
+    "test": "./node_modules/.bin/cypress run",
+    "headed": "npm run test -- --headed",
+    "chrome": "npm run test -- --browser chrome",
+    "recordTest": "npm run test -- --record",
+    "recordDashboard": "npm run test -- --record --key c30b022a-8764-4657-8330-adf2e7a3c433 --reporter mochawesome"
+
   },
   "author": "",
   "license": "ISC",
