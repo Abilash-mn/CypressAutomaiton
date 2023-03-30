@@ -4,6 +4,7 @@ const cypress = require("cypress");
 //cypress.config.js
 
 module.exports = defineConfig({
+  projectId: "a36ywg",
   reporter: 'cypress-mochawesome-reporter',
   e2e: {
     setupNodeEvents(on, config) {
